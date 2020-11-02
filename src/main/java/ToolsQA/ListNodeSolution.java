@@ -2,18 +2,16 @@ package ToolsQA;
 
 public class ListNodeSolution {
     public int getDecimalValue(ListNode head) {
-        int length = 0;
-        int sum=0;
-        int digit=0;
-        int powerOf = 0;
-        String value = "";
-        while(head!=null){
-            value = value+head.val;
-            head = head.next;
-            length++;
+        if(head==null) return 0;
+
+        int res=head.val;
+
+        while(head.next!=null){
+            System.out.println(res+" res value and "+" res * 2 is "+(res * 2)+" +head.next.val is "+ head.next.val+ " total result "+ ((res * 2)+head.next.val));
+            res=res*2+ head.next.val;
+            head=head.next;
         }
-        sum = Integer.parseInt(value,2);
-        return sum;
+        return res;
     }
 
 
