@@ -26,7 +26,7 @@ public class ListNodeSolutionTest {
     @Test
     public void testsolution(){
         ListNodeSolution lnst = new ListNodeSolution();
-        int result = lnst.getDecimalValue(getInputNode("101"));
+        int result = lnst.getDecimalValue(getInputNode("100100111000000"));
         System.out.println("result is "+result);
         assertTrue("True",result==5);
     }
