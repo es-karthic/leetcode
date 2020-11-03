@@ -1,4 +1,4 @@
-package ToolsQA;
+package com.leetcode.day1;
 
 public class TestClass {
 

@@ -1,4 +1,6 @@
-package ToolsQA;
+package com.leetcode.day1;
+
+import com.leetcode.common.ListNode;
 
 public class ListNodeSolution {
     public int getDecimalValue(ListNode head) {

@@ -1,4 +1,4 @@
-package ToolsQA;
+package com.leetcode.day1;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
