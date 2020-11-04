@@ -11,6 +11,7 @@ class Solution {
         ListNode prev = dummy;
         while(head != null){
             ListNode temp = head.next;
+
             if(prev.val >= head.val){
                 prev = dummy;
             }
